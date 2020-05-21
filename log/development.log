@@ -1502,3 +1502,1074 @@ Processing by ChatroomController#index as HTML
 Completed 200 OK in 24ms (Views: 21.7ms | ActiveRecord: 0.0ms | Allocations: 4773)
 
 
+Started GET "/" for ::1 at 2020-05-21 01:24:15 +0300
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 109)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 4811)
+
+
+Started GET "/" for ::1 at 2020-05-21 01:24:56 +0300
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 109)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 19.8ms | ActiveRecord: 0.0ms | Allocations: 4807)
+
+
+Started GET "/signup" for ::1 at 2020-05-21 01:35:45 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 84)
+[Webpacker] Compiling...
+Started GET "/signup" for ::1 at 2020-05-21 01:35:50 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/hacker/sites/hacksocial/public/packs
+[Webpacker] Compiled all packs in /home/hacker/sites/hacksocial/public/packs
+[Webpacker] Hash: 261ecfcc3279018fb8d2
+Version: webpack 4.43.0
+Time: 31038ms
+Built at: 05/21/2020 1:36:33 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-cf16e53af3890b79d9de.js   3.88 MiB  application  [emitted] [immutable]  application
+js/application-cf16e53af3890b79d9de.js.map   4.07 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-cf16e53af3890b79d9de.js js/application-cf16e53af3890b79d9de.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 831 bytes {application} [built]
+[./app/javascript/stylesheets/application.scss] 664 bytes {application} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./app/javascript/stylesheets/application.scss] ./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss 2.55 MiB {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 9 hidden modules
+
+[Webpacker] Hash: 261ecfcc3279018fb8d2
+Version: webpack 4.43.0
+Time: 31038ms
+Built at: 05/21/2020 1:36:33 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-cf16e53af3890b79d9de.js   3.88 MiB  application  [emitted] [immutable]  application
+js/application-cf16e53af3890b79d9de.js.map   4.07 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-cf16e53af3890b79d9de.js js/application-cf16e53af3890b79d9de.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 831 bytes {application} [built]
+[./app/javascript/stylesheets/application.scss] 664 bytes {application} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./app/javascript/stylesheets/application.scss] ./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/stylesheets/application.scss 2.55 MiB {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 9 hidden modules
+
+Completed 200 OK in 46552ms (Views: 46549.6ms | ActiveRecord: 0.0ms | Allocations: 6495)
+
+
+Completed 200 OK in 50913ms (Views: 50715.5ms | ActiveRecord: 0.0ms | Allocations: 13531)
+
+
+Started GET "/signup" for ::1 at 2020-05-21 01:41:19 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 18.5ms | Allocations: 84)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 103ms (Views: 101.8ms | ActiveRecord: 0.0ms | Allocations: 4774)
+
+
+Started GET "/" for ::1 at 2020-05-21 01:41:25 +0300
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 149)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 4466)
+
+
+Started GET "/" for ::1 at 2020-05-21 01:41:29 +0300
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.0ms | Allocations: 3767)
+
+
+Started GET "/" for ::1 at 2020-05-21 01:41:31 +0300
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 3772)
+
+
+Started GET "/" for ::1 at 2020-05-21 01:42:41 +0300
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 157)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 22.2ms | ActiveRecord: 0.0ms | Allocations: 4852)
+
+
+Started GET "/" for ::1 at 2020-05-21 01:43:01 +0300
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 154)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 53ms (Views: 47.9ms | ActiveRecord: 0.0ms | Allocations: 4850)
+
+
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (123.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (118.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20200520224717)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (2.4ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar, "password_digest" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200520224717"]]
+  [1m[35m (91.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-05-20 22:50:53.814650"], ["updated_at", "2020-05-20 22:50:53.814650"]]
+  [1m[35m (51.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/signup" for ::1 at 2020-05-21 01:51:05 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 25.0ms | Allocations: 88)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 122ms (Views: 35.4ms | ActiveRecord: 0.0ms | Allocations: 5916)
+
+
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "admin"], ["password_digest", "$2a$12$LYU8ZgwvQNhQFuSmHFBV3e5vssUxlKCJdLoGisGv190zVfx6IXt8q"], ["created_at", "2020-05-20 22:52:08.240113"], ["updated_at", "2020-05-20 22:52:08.240113"]]
+  [1m[35m (82.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["username", "brian"], ["password_digest", "$2a$12$t15878AxPnGJAoQ2v6xSue.aXP0V.1qlQMB2NgWKRwb9wlIdgLAlK"], ["created_at", "2020-05-20 22:53:04.864832"], ["updated_at", "2020-05-20 22:53:04.864832"]]
+  [1m[35m (150.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateMessages (20200520225525)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "messages" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "body" text, "user_id" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200520225525"]]
+  [1m[35m (96.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMessage Create (0.5ms)[0m  [1m[32mINSERT INTO "messages" ("body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "testing message"], ["user_id", 1], ["created_at", "2020-05-20 23:03:39.637618"], ["updated_at", "2020-05-20 23:03:39.637618"]]
+  [1m[35m (86.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/" for ::1 at 2020-05-21 08:41:07 +0300
+  [1m[35m (4.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 10.1ms | Allocations: 431)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 235ms (Views: 186.7ms | ActiveRecord: 0.0ms | Allocations: 8619)
+
+
+Started GET "/signup" for ::1 at 2020-05-21 08:41:32 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 17.6ms | Allocations: 1938)
+  Rendered users/new.html.erb within layouts/application (Duration: 18.9ms | Allocations: 2269)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms | Allocations: 3408)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <%= form_for @user do |f| %>
+    2:   <% if @user.errors.any? %>
+    3:     <h2>you encountered the following errors</h2>
+    4:     <ul>
+  
+app/views/users/_form.html.erb:1
+app/views/users/new.html.erb:3
+Started GET "/login" for ::1 at 2020-05-21 08:41:45 +0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 107.7ms | Allocations: 2594)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 142ms (Views: 139.0ms | ActiveRecord: 0.0ms | Allocations: 6918)
+
+
+Started GET "/signup" for ::1 at 2020-05-21 08:42:24 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.6ms | Allocations: 1336)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1659)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 2970)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <%= form_for @user do |f| %>
+    2:   <% if @user.errors.any? %>
+    3:     <h2>you encountered the following errors</h2>
+    4:     <ul>
+  
+app/views/users/_form.html.erb:1
+app/views/users/new.html.erb:3
+Started GET "/signup" for ::1 at 2020-05-21 08:44:04 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#new as HTML
+Completed 404 Not Found in 64ms (ActiveRecord: 0.8ms | Allocations: 3851)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User without an ID):
+  
+app/controllers/users_controller.rb:6:in `new'
+Started GET "/signup" for ::1 at 2020-05-21 08:44:32 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.0ms | Allocations: 971)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1059)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 1760)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <%= form_for @user do |f| %>
+    2:   <% if @user.errors.any? %>
+    3:     <h2>you encountered the following errors</h2>
+    4:     <ul>
+  
+app/views/users/_form.html.erb:1
+app/views/users/new.html.erb:3
+Started GET "/signup" for ::1 at 2020-05-21 08:49:07 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 84)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 20.0ms | ActiveRecord: 0.0ms | Allocations: 4783)
+
+
+Started GET "/login" for ::1 at 2020-05-21 08:49:12 +0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 6.5ms | Allocations: 609)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 4895)
+
+
+Started POST "/login" for ::1 at 2020-05-21 08:49:53 +0300
+  
+AbstractController::ActionNotFound (The action 'create' could not be found for SessionsController):
+  
+actionpack (6.0.3.1) lib/abstract_controller/base.rb:131:in `process'
+actionview (6.0.3.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.2) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.2) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.2) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/login" for ::1 at 2020-05-21 08:51:22 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"OWJLttFxOf/kowMhTBtYqUq7U+LqSnAM0LKJExXktAgtRmTWAcMqbEt0juxsU490glkrsYi3hQ5rc5i1jUNysQ==", "session"=>{"username"=>"alex", "password"=>"[FILTERED]"}, "commit"=>"submit"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "alex"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:5:in `create'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 408)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 11.6ms | ActiveRecord: 1.0ms | Allocations: 6899)
+
+
+Started POST "/login" for ::1 at 2020-05-21 08:51:31 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"kdBU0/ISqXePwoiCK/GZO9Wl5lIbnOwiKXXA1tEHQZ6F9HuzIqC65CAVBU8LuU7mHUeeAXlhGSCStNFwSaCHJw==", "session"=>{"username"=>"alex", "password"=>"[FILTERED]"}, "commit"=>"submit"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "alex"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:5:in `create'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 6.1ms | Allocations: 400)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 29.5ms | ActiveRecord: 0.3ms | Allocations: 4747)
+
+
+Started POST "/login" for ::1 at 2020-05-21 08:51:39 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"WaBiVwsFqQSa1VUC7Kqhj0VK6S1Uh0d+T8bMNsmZmclNhE0327e6lzUC2M/M4nZSjaiRfjZ6snz0B92QUT5fcA==", "session"=>{"username"=>"admin", "password"=>"[FILTERED]"}, "commit"=>"submit"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:5:in `create'
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 429ms (ActiveRecord: 0.8ms | Allocations: 4695)
+
+
+Started GET "/users/1" for ::1 at 2020-05-21 08:51:39 +0300
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for UsersController):
+  
+actionpack (6.0.3.1) lib/abstract_controller/base.rb:131:in `process'
+actionview (6.0.3.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.2) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.2) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.2) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/1" for ::1 at 2020-05-21 08:52:30 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8:in `show'
+Completed 406 Not Acceptable in 34ms (ActiveRecord: 1.4ms | Allocations: 7945)
+
+
+  
+ActionController::MissingExactTemplate (UsersController#show is missing a template for request formats: text/html):
+  
+actionpack (6.0.3.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.0.3.1) lib/abstract_controller/base.rb:195:in `process_action'
+actionpack (6.0.3.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.0.3.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:135:in `run_callbacks'
+actionpack (6.0.3.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.3.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.3.1) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.3.1) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.3.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.3.1) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.3.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.3.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.3.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3.1) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.3.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.1) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.2) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.2) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.2) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/1" for ::1 at 2020-05-21 08:52:53 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8:in `show'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 77)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 15.9ms | ActiveRecord: 0.3ms | Allocations: 5373)
+
+
+Started GET "/users/1" for ::1 at 2020-05-21 08:53:06 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8:in `show'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 82)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 51ms (Views: 38.8ms | ActiveRecord: 0.7ms | Allocations: 5376)
+
+
+Started GET "/login" for ::1 at 2020-05-21 08:55:12 +0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 609)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 17.5ms | ActiveRecord: 0.0ms | Allocations: 4909)
+
+
+Started GET "/" for ::1 at 2020-05-21 08:55:15 +0300
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 8.0ms | Allocations: 1591)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 2750)
+
+
+  
+ActionView::Template::Error (Missing partial chatroom/_nav, application/_nav with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/hacker/sites/hacksocial/app/views"
+  * "/home/hacker/.rvm/gems/ruby-2.5.7/gems/actiontext-6.0.3.1/app/views"
+  * "/home/hacker/.rvm/gems/ruby-2.5.7/gems/actionmailbox-6.0.3.1/app/views"
+):
+    1: <%= render 'nav' %>
+    2: <div class="flex mb-4">
+    3:   <div class="w-1/3 bg-gray-400 h-full"></div>
+    4:   <div class="w-1/3 bg-gray-500 h-full"></div>
+  
+app/views/chatroom/index.html.erb:1
+Started GET "/" for ::1 at 2020-05-21 08:56:01 +0300
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 1.4ms | Allocations: 157)
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 488)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 34.1ms | ActiveRecord: 0.0ms | Allocations: 5228)
+
+
+Started GET "/" for ::1 at 2020-05-21 08:57:03 +0300
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 0.8ms | Allocations: 157)
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 522.8ms | Allocations: 148383)
+Completed 500 Internal Server Error in 532ms (ActiveRecord: 0.0ms | Allocations: 149699)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `rental' for #<#<Class:0x00005602e0baa318>:0x00005602e0b80f40>):
+    2: <div class="flex mb-4">
+    3:   <div class="w-1/3 bg-gray-400 h-full"></div>
+    4:   <div class="w-1/3 bg-gray-500 h-full">
+    5:     <small><%= message.user.username if rental.user%>: <%= time_ago_in_words(message.created_at) %> ago,
+    6:   </div>
+    7:   <div class="w-1/3 bg-gray-400 h-full"></div>
+    8: </div>
+  
+app/views/chatroom/index.html.erb:5
+Started GET "/" for ::1 at 2020-05-21 08:57:46 +0300
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 1.5ms | Allocations: 157)
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 506.5ms | Allocations: 148437)
+Completed 500 Internal Server Error in 511ms (ActiveRecord: 0.0ms | Allocations: 149757)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `message' for #<#<Class:0x00007f5ff4b99ff0>:0x00007f5ff4b98718>
+Did you mean?  message_url):
+    2: <div class="flex mb-4">
+    3:   <div class="w-1/3 bg-gray-400 h-full"></div>
+    4:   <div class="w-1/3 bg-gray-500 h-full">
+    5:     <small><%= message.user.username if message.user%>: <%= time_ago_in_words(message.created_at) %> ago,
+    6:   </div>
+    7:   <div class="w-1/3 bg-gray-400 h-full"></div>
+    8: </div>
+  
+app/views/chatroom/index.html.erb:5
+Started GET "/" for ::1 at 2020-05-21 08:57:59 +0300
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 4.1ms | Allocations: 156)
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 568.4ms | Allocations: 148433)
+Completed 500 Internal Server Error in 582ms (ActiveRecord: 0.0ms | Allocations: 149753)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `message' for #<#<Class:0x00005602e2f4cac8>:0x00005602e2f39f90>
+Did you mean?  message_url):
+    2: <div class="flex mb-4">
+    3:   <div class="w-1/3 bg-gray-400 h-full"></div>
+    4:   <div class="w-1/3 bg-gray-500 h-full">
+    5:     <small><%= message.user.username %>: <%= time_ago_in_words(message.created_at) %> ago,
+    6:   </div>
+    7:   <div class="w-1/3 bg-gray-400 h-full"></div>
+    8: </div>
+  
+app/views/chatroom/index.html.erb:5
+Started GET "/" for ::1 at 2020-05-21 09:00:03 +0300
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 1.3ms | Allocations: 155)
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 9.5ms | Allocations: 1698)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms | Allocations: 3016)
+
+
+  
+ActionView::Template::Error (undefined method `username' for nil:NilClass):
+    2: <div class="flex mb-4">
+    3:   <div class="w-1/3 bg-gray-400 h-full"></div>
+    4:   <div class="w-1/3 bg-gray-500 h-full">
+    5:     <small><%= @user.username %>: 
+    6:   </div>
+    7:   <div class="w-1/3 bg-gray-400 h-full"></div>
+    8: </div>
+  
+app/views/chatroom/index.html.erb:5
+Started GET "/" for ::1 at 2020-05-21 09:02:40 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 0.5ms | Allocations: 29)
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1269)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 2005)
+
+
+  
+ActionView::Template::Error (undefined method `username' for nil:NilClass):
+    2: <div class="flex mb-4">
+    3:   <div class="w-1/3 bg-gray-400 h-full"></div>
+    4:   <div class="w-1/3 bg-gray-500 h-full">
+    5:     <small><%= @user.username %>: 
+    6:   </div>
+    7:   <div class="w-1/3 bg-gray-400 h-full"></div>
+    8: </div>
+  
+app/views/chatroom/index.html.erb:5
+Started GET "/" for ::1 at 2020-05-21 09:06:20 +0300
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 1.7ms | Allocations: 155)
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 535.9ms | Allocations: 148420)
+Completed 500 Internal Server Error in 551ms (ActiveRecord: 0.0ms | Allocations: 149740)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `message' for #<#<Class:0x00007f5ff4433068>:0x00007f5ff4430ae8>
+Did you mean?  message_url):
+    2: <div class="flex mb-4">
+    3:   <div class="w-1/3 bg-gray-400 h-full"></div>
+    4:   <div class="w-1/3 bg-gray-500 h-full">
+    5:     <small><%= message.user.username %>: 
+    6:   </div>
+    7:   <div class="w-1/3 bg-gray-400 h-full"></div>
+    8: </div>
+  
+app/views/chatroom/index.html.erb:5
+Started GET "/" for ::1 at 2020-05-21 09:06:39 +0300
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 2.0ms | Allocations: 155)
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 15.0ms | Allocations: 1693)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.0ms | Allocations: 3011)
+
+
+  
+ActionView::Template::Error (undefined method `user' for nil:NilClass):
+    2: <div class="flex mb-4">
+    3:   <div class="w-1/3 bg-gray-400 h-full"></div>
+    4:   <div class="w-1/3 bg-gray-500 h-full">
+    5:     <small><%= @message.user.username %>: 
+    6:   </div>
+    7:   <div class="w-1/3 bg-gray-400 h-full"></div>
+    8: </div>
+  
+app/views/chatroom/index.html.erb:5
+Started GET "/" for ::1 at 2020-05-21 11:53:32 +0300
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 2.5ms | Allocations: 157)
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 12.3ms | Allocations: 1696)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.0ms | Allocations: 3014)
+
+
+  
+ActionView::Template::Error (undefined method `username' for nil:NilClass):
+    2: <div class="flex mb-4">
+    3:   <div class="w-1/3 bg-gray-400 h-full"></div>
+    4:   <div class="w-1/3 bg-gray-500 h-full">
+    5:     <small><%= @user.username %>: 
+    6:   </div>
+    7:   <div class="w-1/3 bg-gray-400 h-full"></div>
+    8: </div>
+  
+app/views/chatroom/index.html.erb:5
+Started GET "/" for ::1 at 2020-05-21 11:54:22 +0300
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 0.4ms | Allocations: 28)
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 10.7ms | Allocations: 1314)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms | Allocations: 1891)
+
+
+  
+ActionView::Template::Error (undefined method `username' for nil:NilClass):
+    2: <div class="flex mb-4">
+    3:   <div class="w-1/3 bg-gray-400 h-full"></div>
+    4:   <div class="w-1/3 bg-gray-500 h-full">
+    5:     <small><%= @user.username %>: 
+    6:   </div>
+    7:   <div class="w-1/3 bg-gray-400 h-full"></div>
+    8: </div>
+  
+app/views/chatroom/index.html.erb:5
+Started GET "/" for ::1 at 2020-05-21 11:54:39 +0300
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 2.5ms | Allocations: 156)
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 488)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 46ms (Views: 40.8ms | ActiveRecord: 0.0ms | Allocations: 5222)
+
+
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/hacker/.rvm/gems/ruby-2.5.7/bin/rake:23)
+Started GET "/" for ::1 at 2020-05-21 11:58:20 +0300
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 283.6ms | Allocations: 75728)
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 286.1ms | Allocations: 76058)
+Completed 500 Internal Server Error in 295ms (ActiveRecord: 0.0ms | Allocations: 77357)
+
+
+  
+ActionView::Template::Error (undefined method `logged_in?' for #<#<Class:0x00007f5ff4a5ff18>:0x00007f5ff4a5e640>
+Did you mean?  logger?):
+    20:         Account
+    21:       </a>
+    22:       
+    23:     <% if logged_in? %>
+    24:         <%= link_to 'logout', destroy_session_path, method: :delete %>
+    25:     <% end %>
+    26:       
+  
+app/views/layouts/_nav.html.erb:23
+app/views/chatroom/index.html.erb:1
+Started GET "/" for ::1 at 2020-05-21 11:59:40 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendered layouts/_nav.html.erb (Duration: 504.7ms | Allocations: 154130)
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 505.1ms | Allocations: 154222)
+Completed 500 Internal Server Error in 509ms (ActiveRecord: 1.1ms | Allocations: 154944)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `destroy_session_path' for #<#<Class:0x00007f5ff823bb80>:0x00007f5ff82393a8>):
+    21:       </a>
+    22:       
+    23:     <% if logged_in? %>
+    24:         <%= link_to 'logout', destroy_session_path, method: :delete %>
+    25:     <% end %>
+    26:       
+    27:       <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Login</a>
+  
+app/views/layouts/_nav.html.erb:24
+app/views/chatroom/index.html.erb:1
+Started GET "/" for ::1 at 2020-05-21 12:02:35 +0300
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendered layouts/_nav.html.erb (Duration: 6.5ms | Allocations: 886)
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 9.8ms | Allocations: 1214)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 41ms (Views: 34.8ms | ActiveRecord: 0.3ms | Allocations: 5930)
+
+
+Started GET "/" for ::1 at 2020-05-21 12:04:50 +0300
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendered layouts/_nav.html.erb (Duration: 7.9ms | Allocations: 921)
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 11.0ms | Allocations: 1248)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 26.9ms | ActiveRecord: 0.5ms | Allocations: 5962)
+
+
+Started GET "/" for ::1 at 2020-05-21 12:07:00 +0300
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendered layouts/_nav.html.erb (Duration: 11.4ms | Allocations: 919)
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 24.4ms | Allocations: 2460)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.9ms | Allocations: 3767)
+
+
+  
+ActionView::Template::Error (undefined method `username' for nil:NilClass):
+    1: <%= render 'layouts/nav' %>
+    2: <div class="flex mb-4">
+    3:   <div class="w-1/3 bg-gray-400 h-full"></div>
+    4:   <div class="w-1/3 bg-gray-500 h-full"><%= @user.username %>
+    5:   </div>
+    6:   <div class="w-1/3 bg-gray-400 h-full"></div>
+    7: </div>
+  
+app/views/chatroom/index.html.erb:4
+Started GET "/" for ::1 at 2020-05-21 12:09:03 +0300
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendered layouts/_nav.html.erb (Duration: 10.9ms | Allocations: 918)
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 529.8ms | Allocations: 149402)
+Completed 500 Internal Server Error in 546ms (ActiveRecord: 0.6ms | Allocations: 150716)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `message' for #<#<Class:0x00005602e0ecfca0>:0x00005602e0eccd98>
+Did you mean?  message_url):
+    1: <%= render 'layouts/nav' %>
+    2: <div class="flex mb-4">
+    3:   <div class="w-1/3 bg-gray-400 h-full"></div>
+    4:   <div class="w-1/3 bg-gray-500 h-full"><%= message.user.username if message.user%>
+    5:   </div>
+    6:   <div class="w-1/3 bg-gray-400 h-full"></div>
+    7: </div>
+  
+app/views/chatroom/index.html.erb:4
+Started GET "/" for ::1 at 2020-05-21 12:38:43 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendered layouts/_nav.html.erb (Duration: 2.6ms | Allocations: 935)
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1266)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.2ms | Allocations: 5993)
+
+
+Started GET "/" for ::1 at 2020-05-21 12:43:41 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendered layouts/_nav.html.erb (Duration: 17.7ms | Allocations: 6111)
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages"[0m
+  ↳ app/views/chatroom/index.html.erb:6
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/chatroom/index.html.erb:7
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 61.3ms | Allocations: 14823)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 151ms (Views: 73.8ms | ActiveRecord: 2.1ms | Allocations: 20816)
+
+
+Started DELETE "/logout" for ::1 at 2020-05-21 12:43:52 +0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"PkAZ97C/yJBNtad7+doFXuMiipyhDRa33v+2Ap7UYboqZDaXYA3bA+JiKrbZktKDK8Dyz8Pw47VlPqekBnOnAw=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms | Allocations: 454)
+
+
+Started GET "/" for ::1 at 2020-05-21 12:43:52 +0300
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 0.2ms | Allocations: 77)
+  [1m[36mMessage Load (0.1ms)[0m  [1m[34mSELECT "messages".* FROM "messages"[0m
+  ↳ app/views/chatroom/index.html.erb:6
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/chatroom/index.html.erb:7
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 1575)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 0.5ms | Allocations: 5372)
+
+
+Started GET "/login" for ::1 at 2020-05-21 12:43:55 +0300
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 611)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 13.6ms | ActiveRecord: 0.0ms | Allocations: 4954)
+
+
+Started POST "/login" for ::1 at 2020-05-21 12:43:58 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"F9A9SprQw+u/4qiHPqIbSaHA31pZ6RgZBZDbC3LkJHgzwAuxrGmQ48jxeuqdbL0LDlN2IVkNdMQvRw+eV1COKw==", "session"=>{"username"=>"alex", "password"=>"[FILTERED]"}, "commit"=>"submit"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "alex"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:5:in `create'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 400)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 17.7ms | ActiveRecord: 0.3ms | Allocations: 4930)
+
+
+Started POST "/login" for ::1 at 2020-05-21 12:44:05 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"wp4H3gjpmLLruBz893wRbsA08RUsOQI/Vtec6/RaCePWuii+2FuLIURvkTHXNMazCNaJRk7E9z3tFo1NbP3PWg==", "session"=>{"username"=>"brayoo", "password"=>"[FILTERED]"}, "commit"=>"submit"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "brayoo"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:5:in `create'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 4.1ms | Allocations: 400)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 53ms (Views: 42.1ms | ActiveRecord: 0.6ms | Allocations: 4753)
+
+
+Started POST "/login" for ::1 at 2020-05-21 12:44:25 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"p/YcaKv0HxuM2r0hFW/fNDMac9o22sIx6RD4sTrkFNmz0jMIe0YMiCMNMOw1Jwjp+/gLiVQnNzNS0ekXokPSYA==", "session"=>{"username"=>"brian", "password"=>"[FILTERED]"}, "commit"=>"submit"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "brian"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:5:in `create'
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 434ms (ActiveRecord: 0.6ms | Allocations: 1051)
+
+
+Started GET "/users/2" for ::1 at 2020-05-21 12:44:26 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9:in `show'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 31.5ms | Allocations: 82)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 47ms (Views: 44.2ms | ActiveRecord: 0.1ms | Allocations: 4956)
+
+
+Started GET "/" for ::1 at 2020-05-21 12:44:34 +0300
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendered layouts/_nav.html.erb (Duration: 2.8ms | Allocations: 706)
+  [1m[36mMessage Load (0.1ms)[0m  [1m[34mSELECT "messages".* FROM "messages"[0m
+  ↳ app/views/chatroom/index.html.erb:6
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/chatroom/index.html.erb:7
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 6.4ms | Allocations: 2207)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.5ms | Allocations: 5997)
+
+
+Started GET "/" for ::1 at 2020-05-21 12:44:37 +0300
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendered layouts/_nav.html.erb (Duration: 2.3ms | Allocations: 700)
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages"[0m
+  ↳ app/views/chatroom/index.html.erb:6
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/chatroom/index.html.erb:7
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 10.1ms | Allocations: 2202)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.6ms | Allocations: 5997)
+
+
+  [1m[35m (3.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mMessage Create (0.4ms)[0m  [1m[32mINSERT INTO "messages" ("body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "testing message"], ["user_id", 2], ["created_at", "2020-05-21 09:46:03.693710"], ["updated_at", "2020-05-21 09:46:03.693710"]]
+  [1m[35m (115.0ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for ::1 at 2020-05-21 12:46:08 +0300
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendered layouts/_nav.html.erb (Duration: 9.2ms | Allocations: 700)
+  [1m[36mMessage Load (0.6ms)[0m  [1m[34mSELECT "messages".* FROM "messages"[0m
+  ↳ app/views/chatroom/index.html.erb:6
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/chatroom/index.html.erb:7
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/chatroom/index.html.erb:7
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 39.9ms | Allocations: 2926)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 67ms (Views: 61.9ms | ActiveRecord: 2.0ms | Allocations: 6722)
+
+
+Started GET "/" for ::1 at 2020-05-21 12:47:30 +0300
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendered layouts/_nav.html.erb (Duration: 9.7ms | Allocations: 919)
+  [1m[36mMessage Load (1.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages"[0m
+  ↳ app/views/chatroom/index.html.erb:6
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/chatroom/index.html.erb:8
+  [1m[36mCACHE User Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/chatroom/index.html.erb:8
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 34.8ms | Allocations: 3463)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 73ms (Views: 62.1ms | ActiveRecord: 2.5ms | Allocations: 8203)
+
+
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mMessage Create (0.4ms)[0m  [1m[32mINSERT INTO "messages" ("body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "it works"], ["user_id", 2], ["created_at", "2020-05-21 09:47:59.066661"], ["updated_at", "2020-05-21 09:47:59.066661"]]
+  [1m[35m (85.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMessage Create (1.8ms)[0m  [1m[32mINSERT INTO "messages" ("body", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "yea, sure"], ["user_id", 1], ["created_at", "2020-05-21 09:48:18.548744"], ["updated_at", "2020-05-21 09:48:18.548744"]]
+  [1m[35m (86.1ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for ::1 at 2020-05-21 12:48:20 +0300
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendered layouts/_nav.html.erb (Duration: 2.4ms | Allocations: 706)
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages"[0m
+  ↳ app/views/chatroom/index.html.erb:6
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/chatroom/index.html.erb:8
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/chatroom/index.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/chatroom/index.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/chatroom/index.html.erb:8
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 20.1ms | Allocations: 4383)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 31.2ms | ActiveRecord: 1.1ms | Allocations: 8192)
+
+
+Started GET "/" for ::1 at 2020-05-21 12:51:25 +0300
+Processing by ChatroomController#index as HTML
+  Rendering chatroom/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendered layouts/_nav.html.erb (Duration: 8.0ms | Allocations: 919)
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages"[0m
+  ↳ app/views/chatroom/index.html.erb:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/messages/_message.html.erb:2
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/messages/_message.html.erb:2
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/messages/_message.html.erb:2
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/messages/_message.html.erb:2
+  Rendered collection of messages/_message.html.erb [4 times] (Duration: 13.1ms | Allocations: 3148)
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 31.0ms | Allocations: 5421)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 58ms (Views: 51.0ms | ActiveRecord: 1.4ms | Allocations: 10158)
+
+
