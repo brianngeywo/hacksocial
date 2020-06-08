@@ -8795,3 +8795,236 @@ Migrating to AddPasswordDigestToShops (20200608200403)
   [1m[36mShop Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "shops" WHERE LOWER("shops"."email") = LOWER(?) AND "shops"."id" != ? LIMIT ?[0m  [["email", "help@chwelecomm.com"], ["id", 2], ["LIMIT", 1]]
   [1m[36mShop Update (0.5ms)[0m  [1m[33mUPDATE "shops" SET "updated_at" = ?, "password_digest" = ? WHERE "shops"."id" = ?[0m  [["updated_at", "2020-06-08 20:10:59.537410"], ["password_digest", "$2a$12$6/FHeH5OiReJfm5qSPR/X.6YE15siP86kRVA6qlo65jep4Edcscxe"], ["id", 2]]
   [1m[35m (78.0ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/phones/new" for ::1 at 2020-06-08 23:13:58 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PhonesController#new as HTML
+  Rendering phones/new.html.erb within layouts/application
+  Rendered phones/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 903)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 10276)
+
+
+Started POST "/phones" for ::1 at 2020-06-08 23:14:16 +0300
+Processing by PhonesController#create as HTML
+  Parameters: {"authenticity_token"=>"Ah39sjvj6VBBYepsYMaQP3VvprXATD2f8aEMl5xtAZiLQjD9DenAtTtbzzFK00OeWV8QMWA21keTKkq1bsC2Ww==", "phone"=>{"name"=>"tecno pro", "description"=>"", "price"=>"22000"}, "commit"=>"post"}
+  Rendering phones/new.html.erb within layouts/application
+  Rendered phones/new.html.erb within layouts/application (Duration: 9.0ms | Allocations: 852)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 113ms (Views: 35.8ms | ActiveRecord: 0.0ms | Allocations: 7153)
+
+
+Started GET "/signup" for ::1 at 2020-06-08 23:15:13 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/signup"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/shops" for ::1 at 2020-06-08 23:15:13 +0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/shops"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/phones" for ::1 at 2020-06-08 23:15:22 +0300
+Processing by PhonesController#index as HTML
+  Rendering phones/index.html.erb within layouts/application
+  [1m[36mPhone Load (0.7ms)[0m  [1m[34mSELECT "phones".* FROM "phones"[0m
+  ↳ app/views/phones/index.html.erb:3
+  [1m[36mShop Load (0.4ms)[0m  [1m[34mSELECT "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/phones/index.html.erb:6
+  [1m[36mCACHE Shop Load (0.0ms)[0m  [1m[34mSELECT "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/phones/index.html.erb:6
+  [1m[36mShop Load (0.2ms)[0m  [1m[34mSELECT "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/phones/index.html.erb:6
+  Rendered phones/index.html.erb within layouts/application (Duration: 32.8ms | Allocations: 8592)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 49ms (Views: 43.5ms | ActiveRecord: 1.3ms | Allocations: 12463)
+
+
+Started GET "/phones" for ::1 at 2020-06-08 23:15:25 +0300
+Processing by PhonesController#index as HTML
+  Rendering phones/index.html.erb within layouts/application
+  [1m[36mPhone Load (1.0ms)[0m  [1m[34mSELECT "phones".* FROM "phones"[0m
+  ↳ app/views/phones/index.html.erb:3
+  [1m[36mShop Load (0.5ms)[0m  [1m[34mSELECT "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/phones/index.html.erb:6
+  [1m[36mCACHE Shop Load (0.1ms)[0m  [1m[34mSELECT "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/phones/index.html.erb:6
+  [1m[36mShop Load (0.4ms)[0m  [1m[34mSELECT "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/phones/index.html.erb:6
+  Rendered phones/index.html.erb within layouts/application (Duration: 35.0ms | Allocations: 3302)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 51ms (Views: 43.9ms | ActiveRecord: 2.0ms | Allocations: 7145)
+
+
+  [1m[35m (3.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mShop Load (0.2ms)[0m  [1m[34mSELECT "shops".* FROM "shops" ORDER BY "shops"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPhone Create (0.6ms)[0m  [1m[32mINSERT INTO "phones" ("name", "description", "price", "updated_on", "shop_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "iPhone"], ["description", "iPhone X"], ["price", 150000], ["updated_on", "2020-06-08 20:26:48.383273"], ["shop_id", 2]]
+  [1m[35m (92.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mShop Load (0.3ms)[0m  [1m[34mSELECT "shops".* FROM "shops" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mPhone Load (1.0ms)[0m  [1m[34mSELECT "phones".* FROM "phones" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mPhone Load (0.2ms)[0m  [1m[34mSELECT "phones".* FROM "phones" WHERE "phones"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mShop Load (1.0ms)[0m  [1m[34mSELECT "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPhone Update (2.2ms)[0m  [1m[33mUPDATE "phones" SET "price" = ?, "updated_on" = ? WHERE "phones"."id" = ?[0m  [["price", 90000], ["updated_on", "2020-06-08 20:28:33.873129"], ["id", 5]]
+  [1m[35m (93.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPhone Load (0.6ms)[0m  [1m[34mSELECT "phones".* FROM "phones" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/phones" for ::1 at 2020-06-08 23:28:48 +0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PhonesController#index as HTML
+  Rendering phones/index.html.erb within layouts/application
+  [1m[36mPhone Load (0.3ms)[0m  [1m[34mSELECT "phones".* FROM "phones"[0m
+  ↳ app/views/phones/index.html.erb:3
+  [1m[36mShop Load (0.2ms)[0m  [1m[34mSELECT "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/phones/index.html.erb:6
+  [1m[36mCACHE Shop Load (0.0ms)[0m  [1m[34mSELECT "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/phones/index.html.erb:6
+  [1m[36mShop Load (0.1ms)[0m  [1m[34mSELECT "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/phones/index.html.erb:6
+  [1m[36mCACHE Shop Load (0.0ms)[0m  [1m[34mSELECT "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/phones/index.html.erb:6
+  Rendered phones/index.html.erb within layouts/application (Duration: 42.6ms | Allocations: 15856)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 59ms (Views: 54.2ms | ActiveRecord: 0.7ms | Allocations: 20313)
+
+
+  [1m[36mShop Load (0.7ms)[0m  [1m[34mSELECT "shops".* FROM "shops" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mPhone Load (0.2ms)[0m  [1m[34mSELECT "phones".* FROM "phones" WHERE "phones"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mShop Load (0.7ms)[0m  [1m[34mSELECT "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mShop Load (0.5ms)[0m  [1m[34mSELECT "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPhone Load (0.4ms)[0m  [1m[34mSELECT "phones".* FROM "phones" WHERE "phones"."shop_id" = ? LIMIT ?[0m  [["shop_id", 2], ["LIMIT", 11]]
+  [1m[36mShop Load (0.7ms)[0m  [1m[34mSELECT "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPhone Load (0.5ms)[0m  [1m[34mSELECT "phones".* FROM "phones" WHERE "phones"."shop_id" = ? LIMIT ?[0m  [["shop_id", 1], ["LIMIT", 11]]
+Started GET "/phones" for ::1 at 2020-06-08 23:34:58 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PhonesController#index as HTML
+  Rendering phones/index.html.erb within layouts/application
+  [1m[36mPhone Load (0.2ms)[0m  [1m[34mSELECT "phones".* FROM "phones"[0m
+  ↳ app/views/phones/index.html.erb:3
+  [1m[36mShop Load (0.2ms)[0m  [1m[34mSELECT "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/phones/index.html.erb:6
+  [1m[36mCACHE Shop Load (0.0ms)[0m  [1m[34mSELECT "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/phones/index.html.erb:6
+  [1m[36mShop Load (0.1ms)[0m  [1m[34mSELECT "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/phones/index.html.erb:6
+  [1m[36mCACHE Shop Load (0.0ms)[0m  [1m[34mSELECT "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/phones/index.html.erb:6
+  Rendered phones/index.html.erb within layouts/application (Duration: 34.0ms | Allocations: 15856)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 46ms (Views: 42.3ms | ActiveRecord: 0.7ms | Allocations: 20310)
+
+
+Started GET "/phones/new" for ::1 at 2020-06-08 23:35:29 +0300
+Processing by PhonesController#new as HTML
+  Rendering phones/new.html.erb within layouts/application
+  Rendered phones/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 892)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 4754)
+
+
+Started POST "/phones" for ::1 at 2020-06-08 23:35:52 +0300
+Processing by PhonesController#create as HTML
+  Parameters: {"authenticity_token"=>"ESSTKbJsNDQn2Vs377cZR6pPpHhmgXp4aHjPt8sWd5mYe15mhGYd0V3jfmrFosrmhn8S/Mb7kaAK84mVObvAWg==", "phone"=>{"name"=>"oppo A7", "description"=>"oppo camera phone", "price"=>"18000"}, "commit"=>"post"}
+  [1m[36mShop Load (0.5ms)[0m  [1m[34mSELECT "shops".* FROM "shops" ORDER BY "shops"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/phones_controller.rb:10:in `create'
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/phones_controller.rb:11:in `create'
+  [1m[36mPhone Create (0.5ms)[0m  [1m[32mINSERT INTO "phones" ("name", "description", "price", "updated_on", "shop_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "oppo A7"], ["description", "oppo camera phone"], ["price", 18000], ["updated_on", "2020-06-08 20:35:52.750198"], ["shop_id", 2]]
+  ↳ app/controllers/phones_controller.rb:11:in `create'
+  [1m[35m (164.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/phones_controller.rb:11:in `create'
+Redirected to http://localhost:3000/phones/6
+Completed 302 Found in 189ms (ActiveRecord: 165.8ms | Allocations: 5168)
+
+
+Started GET "/phones/6" for ::1 at 2020-06-08 23:35:52 +0300
+Processing by PhonesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mPhone Load (0.8ms)[0m  [1m[34mSELECT "phones".* FROM "phones" WHERE "phones"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/phones_controller.rb:20:in `show'
+  Rendering phones/show.html.erb within layouts/application
+  Rendered phones/show.html.erb within layouts/application (Duration: 2.4ms | Allocations: 92)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 32.4ms | ActiveRecord: 0.8ms | Allocations: 4830)
+
+
+Started GET "/phones" for ::1 at 2020-06-08 23:36:01 +0300
+Processing by PhonesController#index as HTML
+  Rendering phones/index.html.erb within layouts/application
+  [1m[36mPhone Load (0.2ms)[0m  [1m[34mSELECT "phones".* FROM "phones"[0m
+  ↳ app/views/phones/index.html.erb:3
+  [1m[36mShop Load (0.2ms)[0m  [1m[34mSELECT "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/phones/index.html.erb:6
+  [1m[36mCACHE Shop Load (0.0ms)[0m  [1m[34mSELECT "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/phones/index.html.erb:6
+  [1m[36mShop Load (0.2ms)[0m  [1m[34mSELECT "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/phones/index.html.erb:6
+  [1m[36mCACHE Shop Load (0.0ms)[0m  [1m[34mSELECT "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/phones/index.html.erb:6
+  [1m[36mCACHE Shop Load (0.0ms)[0m  [1m[34mSELECT "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/phones/index.html.erb:6
+  Rendered phones/index.html.erb within layouts/application (Duration: 18.9ms | Allocations: 4981)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 26.9ms | ActiveRecord: 0.8ms | Allocations: 8819)
+
+

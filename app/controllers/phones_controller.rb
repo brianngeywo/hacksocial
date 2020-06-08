@@ -7,6 +7,7 @@ class PhonesController < ApplicationController
     end
     def create
         @phone = Phone.new(phone_params)
+        @phone.shop = Shop.last
         if @phone.save
           flash[:success] = "Object successfully created"
           redirect_to @phone
