@@ -1,0 +1,11 @@
+<%= link_to 'new phone', new_phone_path %>
+<br>
+<% @phones.each do |phone| %>
+  <%= phone.name %>
+  <%= phone.price %>
+  <%= phone.shop.name %>
+  <%= link_to 'edit', edit_phone_path(phone) %>
+  <%= link_to 'more infor', phone_path(phone) %>
+  <%= link_to 'delete phone', phone_path(phone), method: :delete, data: { confirm: 'by clicking remove,<br> your customers wont be able to view or search it on the site, are you sure you want to remove it?' }, class: "text-red-700" %>
+  <br>
+<% end %>
