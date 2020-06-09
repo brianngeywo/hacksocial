@@ -1,0 +1,11 @@
+<%= link_to 'new shop', new_phone_path %>
+<% if logged_in?  %>
+    <%= link_to 'logout', logout_path, method: :delete %>
+    <% else %>
+    <%= link_to 'login', login_path %>    
+<% end %>
+<br>
+<% @shops.each do |shop| %>
+  <%= link_to shop.name, shop_path(shop)  %>
+  <br>
+<% end %>

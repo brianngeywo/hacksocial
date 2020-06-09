@@ -1,4 +1,7 @@
 class PhonesController < ApplicationController
+    before_action :set_phone, only: [:edit, :update, :show, :destory]
+    before_action :require_shop, except: [:index, :show]
+    before_action :require_same_shop, only:[:edit, :update, :destroy]
     def index
         @phones = Phone.all
     end
@@ -17,13 +20,13 @@ class PhonesController < ApplicationController
         end
     end
     def show
-        @phone = Phone.find(params[:id])
+
     end
     def edit
-        @phone = Phone.find(params[:id])
+
     end
     def update
-        @phone = Phone.find(params[:id])
+
         if @phone.update(phone_params)
           flash[:success] = "Object was successfully updated"
           redirect_to @phone
@@ -33,7 +36,7 @@ class PhonesController < ApplicationController
         end
     end
     def destroy
-        @phone = Phone.find(params[:id])
+
         if @phone.destroy
             flash[:success] = 'Object was successfully deleted.'
             redirect_to phones_path
@@ -44,5 +47,17 @@ class PhonesController < ApplicationController
     def phone_params
         params.require(:phone).permit(:name, :description, :price)
     end
-    
+    def set_phone
+      @phone = Phone.find(params[:id])
+    end
+    def require_shop
+      if !logged_in?
+        redirect_to root_path
+      end
+    end
+    def require_same_shop
+      if current_shop != @phone.shop
+        redirect_to root_path
+      end
+    end
 end

@@ -1,0 +1,14 @@
+<div>log in</div>
+<%= form_for(:session, :html => {class: "border-2", role:"form"}, url: login_path) do |f| %>
+    <div>
+        <%= f.label :email %>
+        <%= f.email_field :email, class: "border-2 border-gray-900"  %>
+    </div>
+   <div>
+    <%= f.label :password %>
+    <%= f.password_field :password, class: "border-2 border-gray-900", placeholder: "preffered password" %>
+  </div>
+
+  <%= f.submit "log in" %>
+<% end %>
+  

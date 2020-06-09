@@ -1,0 +1,18 @@
+<div>showing shop</div>
+<div>name </div>
+<%= @shop.name %>
+<br>
+<div>About Us: </div>
+<%= @shop.about%>
+<br> 
+<div>Reach us through: </div>
+<%= @shop.email %>
+<div>or</div>
+<%= @shop.phone_number %>
+<br>
+<%= link_to 'delete shop', shops_path, method: :delete, data: { confirm: 'by clicking remove,<br> your customers wont be able to view or search it on the site, are you sure you want to remove it?' }, class: "text-red-700" %>
+<%= link_to 'edit', edit_shop_path %>
+<%= link_to 'all shops', shops_path %>
+<div class="text-2xl font-semibold"><%= @shop.name %>'s phones</div>
+<%= render 'phones/phone', obj: @shop.phones %>
+

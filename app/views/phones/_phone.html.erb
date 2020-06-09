@@ -1,0 +1,10 @@
+<% obj.each do |phone| %>
+<br>
+  <%= link_to phone.name, phone_path(phone) %>
+  <%= phone.price %>
+  <%= phone.shop.name %>
+  <% if logged_in? && current_shop == phone.shop %>
+    <%= link_to 'edit', edit_phone_path(phone) %>
+  <% end %>
+<% end %>
+<br>

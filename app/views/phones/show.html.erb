@@ -1,10 +1,19 @@
 <div>showing phone</div>
-<br>
+<div>name </div>
 <%= @phone.name %>
 <br>
+<div>specifications: </div>
 <%= @phone.description %>
 <br>
+<div>price: </div>
 <%= @phone.price %>
 <br>
-<%= link_to 'edit', edit_phone_path %>
+
+<% if logged_in? && current_shop == @phone.shop %>
+  <%= link_to 'edit', edit_phone_path %>
+<%= link_to 'delete phone', phone_path(@phone), method: :delete, data: { confirm: 'by clicking remove, your customers wont be able to view or search it on the site, are you sure you want to remove it?' }, class: "text-red-700" %>
+  
+<% end %>
+
+
 <%= link_to 'all phones', phones_path %>
